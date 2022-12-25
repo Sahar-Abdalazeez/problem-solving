@@ -21,6 +21,6 @@ function countChar(word, letter) {
 
   //3-third way using split it not to recommended
   let charNumber = word.split(letter).length - 1;
-  console.log(charNumber);
+  // console.log(charNumber);
 }
 countChar("sahar", "a");
